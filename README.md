@@ -866,5 +866,3 @@ localhost:5173
 برای مشاهده ویدیوی عملکرد اپلیکیشن و داشبورد، روی تصویر زیر کلیک کنید:
 
 [![Watch the video](./docs/Demo-screenshot.png)](https://www.aparat.com/v/rmsw383)
-
-*Click on the image above to watch the video on Aparat.*
