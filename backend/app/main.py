@@ -78,7 +78,7 @@ async def save_reading(message):
             })
 
             # ---------- 1. Rule-based: irrigation decision only ----------
-            if should_irrigate(soil_percent, plant.min_moisture_percent):
+            if should_irrigate(soil_percent, plant.min_moisture_percent, plant.max_moisture_percent):
                 duration = calculate_irrigation_duration(soil_percent, plant.min_moisture_percent)
                 await create_irrigation_log(db, plant_id, user_triggered=False)
                 await publish_irrigate_command(plant_id, duration_seconds=duration)

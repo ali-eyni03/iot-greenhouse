@@ -10,7 +10,9 @@ MIN_IRRIGATION_SECONDS = 3
 MAX_IRRIGATION_SECONDS = 12
 
 
-def should_irrigate(soil_percent: float, min_moisture_percent: float) -> bool:
+def should_irrigate(soil_percent: float, min_moisture_percent: float, max_moisture_percent: float) -> bool:
+    if soil_percent > max_moisture_percent:
+        return False  # Soil is too wet, do not irrigate
     return soil_percent < min_moisture_percent
 
 

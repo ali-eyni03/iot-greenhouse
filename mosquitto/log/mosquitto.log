@@ -1954,3 +1954,94 @@
 1783771066: New client connected from 172.22.0.4:41789 as auto-0C700DDB-252C-54FA-F13B-03E0AF35A004 (p4, c1, k60).
 1783771248: mosquitto version 2.1.2 terminating
 1783771248: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1783843423: mosquitto version 2.1.2 starting
+1783843423: Config loaded from /mosquitto/config/mosquitto.conf.
+1783843423: Bridge support available.
+1783843423: Persistence support available.
+1783843423: TLS support available.
+1783843423: TLS-PSK support available.
+1783843423: Websockets support available.
+1783843423: Opening ipv4 listen socket on port 1883.
+1783843423: Opening ipv6 listen socket on port 1883.
+1783843423: Opening ipv4 listen socket on port 9001.
+1783843423: Opening ipv6 listen socket on port 9001.
+1783843423: mosquitto version 2.1.2 running
+1783843424: New connection from 192.168.65.1:29107 on port 1883.
+1783843424: New client connected from 192.168.65.1:29107 as greenhouse_1 (p4, c1, k15).
+1783843441: New connection from 172.22.0.4:35593 on port 1883.
+1783843441: New client connected from 172.22.0.4:35593 as auto-46404A1B-BFD3-426F-35EC-4F00540088CA (p4, c1, k60).
+1783843484: New connection from 172.22.0.4:54257 on port 1883.
+1783843484: New client connected from 172.22.0.4:54257 as auto-3A2DB47D-1C6A-EF9E-2F3F-FB24CF66C97C (p4, c1, k60).
+1783843484: Client auto-3A2DB47D-1C6A-EF9E-2F3F-FB24CF66C97C [172.22.0.4:54257] disconnected.
+1783843924: New connection from 172.22.0.4:55247 on port 1883.
+1783843924: New client connected from 172.22.0.4:55247 as auto-29DD68ED-70B5-45EA-808A-69334F993A60 (p4, c1, k60).
+1783843924: Client auto-29DD68ED-70B5-45EA-808A-69334F993A60 [172.22.0.4:55247] disconnected.
+1783843954: New connection from 172.22.0.4:54813 on port 1883.
+1783843954: New client connected from 172.22.0.4:54813 as auto-79AC06D6-99CC-57F6-E6B5-5C1ED9A368AD (p4, c1, k60).
+1783843954: Client auto-79AC06D6-99CC-57F6-E6B5-5C1ED9A368AD [172.22.0.4:54813] disconnected.
+1783844514: New connection from 172.22.0.4:44783 on port 1883.
+1783844514: New client connected from 172.22.0.4:44783 as auto-45C244BA-197D-0D0B-B103-DF94B70FF5D0 (p4, c1, k60).
+1783844514: Client auto-45C244BA-197D-0D0B-B103-DF94B70FF5D0 [172.22.0.4:44783] disconnected.
+1783844551: mosquitto version 2.1.2 terminating
+1783844551: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1783855987: mosquitto version 2.1.2 starting
+1783855987: Config loaded from /mosquitto/config/mosquitto.conf.
+1783855987: Bridge support available.
+1783855987: Persistence support available.
+1783855987: TLS support available.
+1783855987: TLS-PSK support available.
+1783855987: Websockets support available.
+1783855987: Opening ipv4 listen socket on port 1883.
+1783855987: Opening ipv6 listen socket on port 1883.
+1783855987: Opening ipv4 listen socket on port 9001.
+1783855987: Opening ipv6 listen socket on port 9001.
+1783855987: mosquitto version 2.1.2 running
+1783856002: New connection from 172.22.0.4:58019 on port 1883.
+1783856002: New client connected from 172.22.0.4:58019 as auto-F0E3AD23-1989-2D62-7D60-AE6A842B3702 (p4, c1, k60).
+1783856058: New connection from 192.168.65.1:39506 on port 1883.
+1783856058: New client connected from 192.168.65.1:39506 as greenhouse_1 (p4, c1, k15).
+1783856116: New connection from 172.22.0.4:51745 on port 1883.
+1783856116: New client connected from 172.22.0.4:51745 as auto-EB2E9DA2-DDC7-15EB-0E11-9DDC275C5F42 (p4, c1, k60).
+1783856116: Client auto-EB2E9DA2-DDC7-15EB-0E11-9DDC275C5F42 [172.22.0.4:51745] disconnected.
+1783856124: New connection from 172.22.0.4:47959 on port 1883.
+1783856124: New client connected from 172.22.0.4:47959 as auto-478C82AA-3A9E-23A9-D382-9574626FE905 (p4, c1, k60).
+1783856124: Client auto-478C82AA-3A9E-23A9-D382-9574626FE905 [172.22.0.4:47959] disconnected.
+1783857511: New connection from 192.168.65.1:32383 on port 1883.
+1783857511: Client greenhouse_1 [192.168.65.1:39506] disconnected: session taken over.
+1783857511: New client connected from 192.168.65.1:32383 as greenhouse_1 (p4, c1, k15).
+1783857588: New connection from 192.168.65.1:32282 on port 1883.
+1783857588: Client greenhouse_1 [192.168.65.1:32383] disconnected: session taken over.
+1783857588: New client connected from 192.168.65.1:32282 as greenhouse_1 (p4, c1, k15).
+1783857679: New connection from 192.168.65.1:22412 on port 1883.
+1783857679: Client greenhouse_1 [192.168.65.1:32282] disconnected: session taken over.
+1783857679: New client connected from 192.168.65.1:22412 as greenhouse_1 (p4, c1, k15).
+1783857709: New connection from 192.168.65.1:50832 on port 1883.
+1783857709: Client greenhouse_1 [192.168.65.1:22412] disconnected: session taken over.
+1783857709: New client connected from 192.168.65.1:50832 as greenhouse_1 (p4, c1, k15).
+1783857788: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1783857853: Client greenhouse_1 [192.168.65.1:50832] disconnected: exceeded timeout.
+1783857853: New connection from 192.168.65.1:50394 on port 1883.
+1783857853: New client connected from 192.168.65.1:50394 as greenhouse_1 (p4, c1, k15).
+1783857916: New connection from 192.168.65.1:45082 on port 1883.
+1783857916: Client greenhouse_1 [192.168.65.1:50394] disconnected: session taken over.
+1783857916: New client connected from 192.168.65.1:45082 as greenhouse_1 (p4, c1, k15).
+1783857954: New connection from 172.22.0.4:57965 on port 1883.
+1783857954: New client connected from 172.22.0.4:57965 as auto-F19D3ACD-D74F-273F-E8AD-F3DA5F3EAD1F (p4, c1, k60).
+1783857954: Client auto-F19D3ACD-D74F-273F-E8AD-F3DA5F3EAD1F [172.22.0.4:57965] disconnected.
+1783858007: Client greenhouse_1 [192.168.65.1:45082] disconnected: exceeded timeout.
+1783858007: New connection from 192.168.65.1:58912 on port 1883.
+1783858007: New client connected from 192.168.65.1:58912 as greenhouse_1 (p4, c1, k15).
+1783858189: New connection from 172.22.0.4:47989 on port 1883.
+1783858189: New client connected from 172.22.0.4:47989 as auto-FA5F8B85-A6C5-27B6-722F-A8C8976CD678 (p4, c1, k60).
+1783858189: Client auto-FA5F8B85-A6C5-27B6-722F-A8C8976CD678 [172.22.0.4:47989] disconnected.
+1783858343: Client greenhouse_1 [192.168.65.1:58912] disconnected: exceeded timeout.
+1783858686: New connection from 172.22.0.4:53531 on port 1883.
+1783858686: New client connected from 172.22.0.4:53531 as auto-5AF657B7-22DE-0953-90CD-BC08F938F94A (p4, c1, k60).
+1783858686: Client auto-5AF657B7-22DE-0953-90CD-BC08F938F94A [172.22.0.4:53531] disconnected.
+1783858710: New connection from 192.168.65.1:38917 on port 1883.
+1783858710: New client connected from 192.168.65.1:38917 as greenhouse_1 (p4, c1, k15).
+1783858808: New connection from 172.22.0.4:57251 on port 1883.
+1783858808: New client connected from 172.22.0.4:57251 as auto-3DC8B799-64E1-1171-905C-A34471656EB5 (p4, c1, k60).
+1783858808: Client auto-3DC8B799-64E1-1171-905C-A34471656EB5 [172.22.0.4:57251] disconnected.
+1783858935: mosquitto version 2.1.2 terminating
+1783858935: Saving in-memory database to /mosquitto/data//mosquitto.db.

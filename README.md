@@ -22,6 +22,7 @@
 
 ## فهرست مطالب
 
+0. [ویدیو پروژه](#video-report)
 1. [نمای کلی پروژه](#section-1)
 2. [معماری سیستم](#section-2)
 3. [سخت‌افزار (Firmware)](#section-3)
@@ -41,6 +42,13 @@
 
 ---
 
+<a id="video-report"></a>
+## ویدیوی توضیح پروژه
+برای مشاهده ویدیو، روی تصویر زیر کلیک کنید:
+
+[![Watch the video](./docs/video.png)](https://aparat.com/v/riupap0)
+
+---
 <a id="section-1"></a>
 ## 1. نمای کلی پروژه
 
@@ -401,7 +409,9 @@ async def lifespan(app: FastAPI):
 ### فایل: `irrigation_logic.py`
 
 ```python
-def should_irrigate(soil_percent: float, min_moisture_percent: float) -> bool:
+def should_irrigate(soil_percent: float, min_moisture_percent: float, max_moisture_percent: float) -> bool:
+    if soil_percent > max_moisture_percent:
+        return False  # Soil is too wet, do not irrigate
     return soil_percent < min_moisture_percent
 
 def calculate_irrigation_duration(soil_percent: float, min_moisture_percent: float) -> int:
