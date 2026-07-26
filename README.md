@@ -46,7 +46,8 @@
 ## ویدیوی توضیح پروژه
 برای مشاهده ویدیو، روی تصویر زیر کلیک کنید:
 
-[![Watch the video](./docs/video.png)](https://aparat.com/v/riupap0)
+[![Watch the video](./docs/video.png)](https://youtu.be/BbICIG6-ets)
+[لینک ویدیوی آپارات](https://aparat.com/v/riupap0)
 
 ---
 <a id="section-1"></a>
